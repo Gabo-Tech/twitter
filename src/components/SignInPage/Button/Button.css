@@ -1,0 +1,25 @@
+.whiteBtn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 25px;
+  border-color: #cfd9de;
+  border-width: 0.1px;
+  padding: 1rem 5.65rem;
+  font-weight: 700;
+}
+.blueBtn {
+  background-color: #1d9bf0;
+  color: #fff;
+  border-radius: 25px;
+  border-width: 0.1px;
+  padding: 1rem 4rem;
+  font-weight: 700;
+}
+.signInBtn {
+  background-color: #fff;
+  color: #1d9bf0;
+  border-radius: 25px;
+  border-width: 0.1px;
+  padding: 1rem 8rem;
+  font-weight: 700;
+}

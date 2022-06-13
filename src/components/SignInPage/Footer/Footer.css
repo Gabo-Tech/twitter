@@ -1,0 +1,8 @@
+.footer {
+  padding: auto;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}

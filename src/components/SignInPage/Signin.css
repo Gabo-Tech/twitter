@@ -1,0 +1,43 @@
+.SigninPage {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 90vh;
+}
+.SigninImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("./lohp_en_1302x955.png");
+  background-color: rgb(0, 195, 255);
+}
+.SigninImage > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  filter: invert(94%) sepia(0%) saturate(7500%) hue-rotate(48deg)
+    brightness(115%) contrast(106%);
+}
+.or {
+  display: flex;
+  padding: 0px 190px;
+  margin: -40px;
+}
+.googleBtn {
+  margin-bottom: -100px;
+}
+.appleBtn {
+  margin-top: -100px;
+}
+.SigninButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.SigninButtons > svg {
+  float: inline-start;
+}
